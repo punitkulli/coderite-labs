@@ -1,0 +1,82 @@
+body{
+    background: #333;
+   color: #fff;
+}
+
+.navbar{
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.8;
+}
+
+nav a {
+    color: #fff;
+    padding: 15px;
+}
+nav .container button span{
+    color:#333;
+}
+nav a:hover {
+    text-decoration: none;
+    background-color:transparent;
+    color:red;
+    border-radius: 5px;
+}
+
+
+#home-section {
+    background: url(img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    color: #fff;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#home-section .dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner{
+    padding-top: 150px;
+}
+
+#home-section .card-form {
+    opacity: 0.8;
+  }
+  
+  #home-section .far,
+  #create-head-section .far {
+    color: #008ed6;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  #explore-head-section , #explore-head-section a{
+      background-color: #333;
+      color: #fff
+  }
+
+  #explore-head-section a:hover {
+      color:#333;
+      background-color: lightgrey;
+  }
+
+  #explore-section .far,
+  #share-section .far,
+  #create-section .far {
+    color: #008ed6;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  footer, footer p {
+      color: #fff;
+      font-size: 10px;
+  }
